@@ -1,130 +1,112 @@
-\# Recruitment KPI Automation Dashboard
+# Recruitment KPI Automation Dashboard
 
+## Project Overview
 
+This project is an automated recruitment tracking and KPI monitoring system built using Google Sheets, Zapier, Gmail, and CSV datasets.
 
-\## Project Overview
+The workflow automatically detects when a new candidate is added to the recruitment dataset, updates KPI metrics in real time, and sends an email notification instantly.
 
+The goal of this project is to demonstrate practical skills in:
 
+- Data Analytics
+- Workflow Automation
+- KPI Tracking
+- ETL Thinking
+- Google Sheets Automation
+- Recruitment Data Management
 
-This project is an automated recruitment tracking system built with Google Sheets and Zapier.
+---
 
+## Tools Used
 
+- Google Sheets
+- Zapier
+- Gmail
+- CSV Dataset
+- KPI Dashboard
+- Automation Workflow
 
-The goal is to manage candidate data, generate recruitment KPIs automatically, and send email notifications whenever a new candidate is added.
+---
 
+## Features
 
+- Automated KPI tracking
+- Real-time recruitment dashboard
+- Automatic email notifications
+- Google Sheets integration
+- Zapier workflow automation
+- Candidate monitoring system
+- Automated recruitment analytics
 
-\## Tools Used
+---
 
-
-
-\- Google Sheets
-
-\- Zapier
-
-\- Gmail
-
-\- CSV
-
-\- KPI Dashboard
-
-\- Automation Workflow
-
-
-
-\## Dataset
-
-
+## Dataset
 
 The dataset contains candidate information with the following columns:
 
+- name
+- age
+- city
+- start_date
+- message
 
+Example:
 
-\- name
+| name | age | city | start_date | message |
+|------|------|------|------|------|
+| Anna Müller | 27 | Berlin | 2026-06-01 | Interested in Pflegehelfer position |
 
-\- age
+---
 
-\- city
+## Workflow
 
-\- start\_date
+1. Candidate data is added to Google Sheets
+2. Zapier detects a new or updated spreadsheet row
+3. KPI metrics update automatically
+4. Gmail sends a notification email
+5. Recruitment data is tracked in real time
 
-\- message
+---
 
+## KPI Metrics
 
+The dashboard automatically calculates:
 
-\## Key Features
+- Total candidates
+- Average age
+- Candidates per city
+- Number of Pflegekraft candidates
+- Number of Pflegehelfer candidates
 
+---
 
+## Automation Process
 
-\- Automatic candidate tracking
+### Google Sheets
+Stores and manages recruitment candidate data.
 
-\- Real-time KPI dashboard
+### Zapier
+Monitors the spreadsheet and triggers automation workflows.
 
-\- Email notification when a new candidate is added
+### Gmail
+Automatically sends notification emails when a new candidate is added.
 
-\- City distribution analysis
+### KPI Dashboard
+Displays recruitment analytics and tracking metrics in real time.
 
-\- Candidate category analysis
+---
 
-\- Automated recruitment workflow
-
-
-
-\## KPIs
-
-
-
-The dashboard calculates:
-
-
-
-\- Total number of candidates
-
-\- Average age
-
-\- Number of Pflegekraft candidates
-
-\- Number of Pflegehelfer candidates
-
-\- Candidate distribution by city
-
-
-
-\## Automation Workflow
-
-
-
-The automation workflow works as follows:
-
-
-
-1\. A new candidate is added to Google Sheets
-
-2\. Zapier detects the new or updated row
-
-3\. Gmail sends an automatic notification
-
-4\. The KPI dashboard updates automatically
-
-
-
-\## Project Architecture
-
-
+## Project Structure
 
 ```text
-
-Google Sheets candidates data
-
-&#x20;       ↓
-
-Zapier automation
-
-&#x20;       ↓
-
-Email notification
-
-&#x20;       ↓
-
-KPI Dashboard update
-
+recruitment-kpi-automation/
+│
+├── data/
+│   ├── candidates.csv
+│   └── additional_candidates_50.csv
+│
+├── screenshots/
+│
+├── README.md
+│
+└── KPI_Dashboard.xlsx
