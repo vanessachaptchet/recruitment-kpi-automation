@@ -116,15 +116,15 @@ The repository contains:
 
 ### KPI Dashboard
 
-![KPI Dashboard](screenshots/dashboard.png)
+![KPI Dashboard](screenshots/KPI_dashboard.png)
 
 ### Zapier Workflow
 
-![Zapier Workflow](screenshots/zapier_workflow.png)
+![Zapier Workflow](screenshots/zapier.png)
 
 ### Email Notification
 
-![Email Notification](screenshots/email_notification.png)
+![Email Notification](screenshots/Mail_receive.png)
 
 ---
 
