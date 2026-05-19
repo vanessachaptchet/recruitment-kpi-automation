@@ -110,3 +110,42 @@ recruitment-kpi-automation/
 ├── README.md
 │
 └── KPI_Dashboard.xlsx
+
+
+
+## Screenshots
+
+The project includes screenshots of:
+
+- Google Sheets KPI Dashboard
+- Zapier automation workflow
+- Gmail notification system
+- Candidate dataset
+
+---
+
+## Future Improvements
+
+- Power BI dashboard integration
+- AI-based candidate analysis
+- Streamlit web application
+- Advanced recruitment analytics
+- Interactive visualizations
+- Machine learning predictions
+
+---
+
+## Author
+
+Vanessa Tchapda
+
+Bioinformatics & Data Science Student
+
+Interested in:
+
+- Data Analytics
+- Bioinformatics
+- Automation
+- ETL Pipelines
+- Machine Learning
+- Workflow Automation
