@@ -83,44 +83,50 @@ The dashboard automatically calculates:
 ## Automation Process
 
 ### Google Sheets
+
 Stores and manages recruitment candidate data.
 
 ### Zapier
+
 Monitors the spreadsheet and triggers automation workflows.
 
 ### Gmail
+
 Automatically sends notification emails when a new candidate is added.
 
 ### KPI Dashboard
+
 Displays recruitment analytics and tracking metrics in real time.
 
 ---
 
 ## Project Structure
 
-```text
-recruitment-kpi-automation/
-│
-├── data/
-│   ├── candidates.csv
-│   └── additional_candidates_50.csv
-│
-├── screenshots/
-│
-├── README.md
-│
-└── KPI_Dashboard.xlsx
+The repository contains:
 
+- Recruitment candidate datasets
+- KPI dashboard files
+- Automation workflow configuration
+- Project screenshots
+- README documentation
 
+---
 
 ## Screenshots
 
-The project includes screenshots of:
+### KPI Dashboard
 
-- Google Sheets KPI Dashboard
-- Zapier automation workflow
-- Gmail notification system
-- Candidate dataset
+![KPI Dashboard](screenshots/dashboard.png)
+
+### Zapier Workflow
+
+![Zapier Workflow](screenshots/zapier_workflow.png)
+
+### Email Notification
+
+![Email Notification](screenshots/email_notification.png)
+
+---
 
 ## Future Improvements
 
