@@ -122,8 +122,6 @@ The project includes screenshots of:
 - Gmail notification system
 - Candidate dataset
 
----
-
 ## Future Improvements
 
 - Power BI dashboard integration
